@@ -53,7 +53,7 @@
 /* header styles start*/
 
 .headerContainer{
-    background: url(../../hand-846092_1920.jpg) center/cover;
+    background: url(../hand-846092_1920.jpg) center/cover;
     height: 100vh;
     display: flex;
     justify-content: space-between;
