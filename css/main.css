@@ -327,11 +327,12 @@
     text-decoration: none;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    z-index: -1;;
+    z-index: -1;
 }
 
 .div:hover .moreInfo{
     color: rgb(255, 255, 255);
+    transition: 1s;
     z-index: 1;
 }
 
@@ -353,7 +354,7 @@
 }
 
 .div:hover .imgThree{
-    content: url('https://i.ibb.co/mTTMWvR/pokedex1.png');
+    content: url('https://i.ibb.co/q7st46G/pokemon2.png');
     transition: all .5s;
     filter: sepia(0.2);
     transform: translateY(27px) scale(1.1);
@@ -752,6 +753,7 @@ span.icon {
     }
     .someProjects {
         margin: 15px 50px 50px 50px;
+        text-align: center;
     }
     .div:hover .imgOne{
         width: 60vmin;
