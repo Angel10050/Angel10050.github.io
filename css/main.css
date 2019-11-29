@@ -5,7 +5,7 @@
 
 /* burgerButton start */
 
-.iconContainer{
+.UpArrorContainer, .iconContainer  {
     display: block;
     position: fixed;
     left: 5px;
@@ -23,7 +23,23 @@
     width: 20px;
     height: 20px;
     filter: invert(100%);
-    text-align: center;
+}
+
+.UpArrorContainer {
+    display: block;
+    position: fixed;
+    left: 95vw;
+    top: 92%;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.UpArrow {
+    width: 20px;
+    height: 20px;
+    filter: invert(100%);
 }
 
 /* burgeButton ends */
@@ -80,6 +96,7 @@
     animation-iteration-count: infinite;
     transform-origin: bottom;
     cursor: pointer;
+    text-decoration: none;
     animation-name: bounce;
     align-self: flex-end;
 }
@@ -189,6 +206,7 @@
 .mainContainer > .userImage{
     width: 0;
     height: 100vh;
+    object-fit: cover;
     filter: brightness(1) blur(5px);
     transition: all 1s;
 }
@@ -481,6 +499,11 @@ span.icon {
     .mainContainer { 
         pointer-events: none;
     }
+
+    .UpArrorContainer {
+        left: 92vw;
+        top: 91%; 
+    }
     
     .hest {
         font-size: 18px
@@ -656,6 +679,12 @@ span.icon {
     .iconContainer ,.burgerButton {
         display: inline;
     }
+
+    .UpArrorContainer {
+        left: 87vw;
+        top: 91%;
+    }
+
     .hest {
         width: 100%;
     }
@@ -815,6 +844,11 @@ span.icon {
 
 @media screen and (max-width : 320px) {
     /* first Section */
+    .UpArrorContainer {
+        left: 83vw;
+        top: 92%;
+    }
+
     .mainContainer > .userImage{
         height: 52vh;
         object-fit: cover;
